@@ -6,7 +6,7 @@ MyDialog::MyDialog(QWidget *parent): QDialog(parent)
     , ui(new Ui::MyDialog)
 {
     QHBoxLayout *Hlay = new QHBoxLayout;
-    setWindowTitle("Анкета");
+    this->setWindowTitle("Анкета");
 
     cBox->addItem("value1", 1);
     cBox->addItem("value2", 2);
